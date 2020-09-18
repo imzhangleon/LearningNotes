@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Notes
-subtitle: "subtitle"
-description: "description"
-author: John Doe
+title: Learning Notes
+subtitle: "Dive Into It"
+description: "一个前端界的小学生"
+author: Leon Zhang
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -118,12 +118,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  sitemap: /sitemap.xml
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -225,7 +225,7 @@ font:
 social_icons:
   enable: true
   # Icon Mappings.
-  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
+  KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
   Weibo: weibo
@@ -233,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
