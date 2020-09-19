@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Learning  Notes
+title: Learning Notes
 subtitle: "Dive Into It"
 description: "前端界的一个小学生"
 author: Leon Zhang
@@ -87,7 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2020
 
 # icon between year and author @Footer
 authoricon: heart
@@ -137,11 +137,11 @@ menu_icons:
   home: home
   about: user
   categories: th
-  schedule: calendar
-  tags: tags
+  #schedule: calendar
+  #tags: tags
   archives: archive
-  sitemap: sitemap
-  commonweal: heartbeat
+  #sitemap: sitemap
+  #commonweal: heartbeat
 
 
 
@@ -151,8 +151,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -277,7 +277,7 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls
@@ -329,9 +329,9 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license_url: https://imzhangleon.github.io
 
 
 
@@ -586,7 +586,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -611,9 +611,9 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
-#pace-theme-big-counter
+pace-theme-big-counter
 #pace-theme-bounce
 #pace-theme-barber-shop
 #pace-theme-center-atom
@@ -631,20 +631,20 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
-canvas_lines: false
+canvas_lines: true
 
 # canvas_sphere
-canvas_sphere: false
+canvas_sphere: true
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: false
+canvas_ribbon: true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
