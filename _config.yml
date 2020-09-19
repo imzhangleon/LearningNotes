@@ -613,7 +613,7 @@ fancybox: true
 # Progress bar in the top during page loading.
 pace: true
 # Themes list:
-pace-theme-big-counter
+#pace-theme-big-counter
 #pace-theme-bounce
 #pace-theme-barber-shop
 #pace-theme-center-atom
@@ -628,7 +628,7 @@ pace-theme-big-counter
 #pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-big-counter
 
 # Canvas-nest
 canvas_nest: true
